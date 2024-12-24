@@ -15,7 +15,7 @@ C:/Git_Dayhim58/Game-Development_RaceProject/RacingCar
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50800
+49286
 Successfully changed project path to: C:/Git_Dayhim58/Game-Development_RaceProject/RacingCar
 C:/Git_Dayhim58/Game-Development_RaceProject/RacingCar
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Git_Dayhim58/Game-Development_RaceProject/RacingCar
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 324.75 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1217.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.24f1 (709dddfb713f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.1.24f1/Editor/Data/Resources/UnitySubsystems
@@ -63,334 +63,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.1.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.1.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015478 seconds.
+Registered in 0.017581 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 289.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1010.95 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.604 seconds
+- Completed reload, in  6.733 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2606ms)
-		BeginReloadAssembly (624ms)
+	ReloadAssembly (6735ms)
+		BeginReloadAssembly (922ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (4ms)
-		EndReloadAssembly (1639ms)
-			LoadAssemblies (615ms)
-			RebuildTransferFunctionScriptingTraits (3ms)
-			SetupTypeCache (500ms)
-				TypeCache.Initialize (497ms)
-					TypeCache.ScanAssembly (494ms)
-				ResolveRequiredComponents (2ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (11ms)
+		EndReloadAssembly (4834ms)
+			LoadAssemblies (884ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (937ms)
+				TypeCache.Initialize (934ms)
+					TypeCache.ScanAssembly (929ms)
+				ResolveRequiredComponents (4ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (64ms)
-			SetupLoadedEditorAssemblies (977ms)
+			RebuildScriptCaches (273ms)
+			SetupLoadedEditorAssemblies (3353ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (13ms)
-				RefreshPlugins (289ms)
-				BeforeProcessingInitializeOnLoad (4ms)
-				ProcessInitializeOnLoadAttributes (538ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
+				InitializePlatformSupportModulesInManaged (97ms)
+				SetLoadedEditorAssemblies (20ms)
+				RefreshPlugins (1011ms)
+				BeforeProcessingInitializeOnLoad (18ms)
+				ProcessInitializeOnLoadAttributes (1994ms)
+				ProcessInitializeOnLoadMethodAttributes (211ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.016097 seconds.
+Registered in 0.046543 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 432.84 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  6.704 seconds
-Domain Reload Profiling:
-	ReloadAssembly (6709ms)
-		BeginReloadAssembly (630ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (5575ms)
-			LoadAssemblies (777ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (2349ms)
-				TypeCache.Initialize (2279ms)
-					TypeCache.ScanAssembly (1330ms)
-				ResolveRequiredComponents (70ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (182ms)
-			SetupLoadedEditorAssemblies (2347ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (20ms)
-				RefreshPlugins (433ms)
-				BeforeProcessingInitializeOnLoad (377ms)
-				ProcessInitializeOnLoadAttributes (1254ms)
-				ProcessInitializeOnLoadMethodAttributes (222ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (2ms)
-			ExecutionOrderSort2 (1ms)
-			AwakeInstancesAfterBackupRestoration (22ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
-Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4072 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 39 unused Assets / (58.2 KB). Loaded Objects now: 4529.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 10.504000 ms (FindLiveObjects: 0.845300 ms CreateObjectMapping: 0.540200 ms MarkObjects: 8.510800 ms  DeleteObjects: 0.603200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 337125.468972 seconds.
-  path: Assets/DeliveryDriverWorld/Tree 1.png
-  artifactKey: Guid(1990acc37fb064695824562ff43bf451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/Tree 1.png using Guid(1990acc37fb064695824562ff43bf451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36f90616041aa32d84b8f5480da9698') in 0.719467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.217704 seconds.
-  path: Assets/DeliveryDriverWorld/Tree 1.png
-  artifactKey: Guid(1990acc37fb064695824562ff43bf451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/Tree 1.png using Guid(1990acc37fb064695824562ff43bf451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '887cda7fd04aa5818d74dfa6f9490c22') in 0.061189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.709687 seconds.
-  path: Assets/DeliveryDriverWorld/Tree 2.png
-  artifactKey: Guid(2e71e9a506baf4639b1cdc04a3668c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/Tree 2.png using Guid(2e71e9a506baf4639b1cdc04a3668c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215751e53af7ac6b7871dcbfe1f0739a') in 0.046461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/DeliveryDriverWorld/Tree 3.png
-  artifactKey: Guid(36ae13fac1eb8481097f752a5b5c7d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/Tree 3.png using Guid(36ae13fac1eb8481097f752a5b5c7d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc36af457ad3a54674eceb59e779d71') in 0.050631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/DeliveryDriverWorld/Tree 4.png
-  artifactKey: Guid(a3e571cb1c6344ef88add36993136a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/Tree 4.png using Guid(a3e571cb1c6344ef88add36993136a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5543005579335adf677a5d392bf39111') in 0.049922 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011735 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  4.179 seconds
-Domain Reload Profiling:
-	ReloadAssembly (4181ms)
-		BeginReloadAssembly (657ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (21ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (123ms)
-		EndReloadAssembly (3134ms)
-			LoadAssemblies (524ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (1010ms)
-				TypeCache.Initialize (831ms)
-					TypeCache.ScanAssembly (800ms)
-				ResolveRequiredComponents (179ms)
-			ReleaseScriptCaches (6ms)
-			RebuildScriptCaches (207ms)
-			SetupLoadedEditorAssemblies (1349ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (34ms)
-				SetLoadedEditorAssemblies (13ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (238ms)
-				ProcessInitializeOnLoadAttributes (902ms)
-				ProcessInitializeOnLoadMethodAttributes (97ms)
-				AfterProcessingInitializeOnLoad (61ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (74ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 16.33 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (25.4 KB). Loaded Objects now: 4547.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 13.840400 ms (FindLiveObjects: 1.501700 ms CreateObjectMapping: 0.594000 ms MarkObjects: 11.439500 ms  DeleteObjects: 0.299500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 345.697678 seconds.
-  path: Assets/DeliveryDriverWorld/Rocks 1.png
-  artifactKey: Guid(3c92a8bd86a1a45fca2c09342ca54de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/Rocks 1.png using Guid(3c92a8bd86a1a45fca2c09342ca54de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813905c00442442849b83d073f6c3ac7') in 0.220099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 122.698846 seconds.
-  path: Assets/DeliveryDriverWorld/House 3.png
-  artifactKey: Guid(260cc43f4cec6463ca3722cc86dd5616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/House 3.png using Guid(260cc43f4cec6463ca3722cc86dd5616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd740a322083063cc0b57db34ef0386f6') in 0.047664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.495125 seconds.
-  path: Assets/DeliveryDriverWorld/House 2.png
-  artifactKey: Guid(de52a4d740c4e4ee5a6bff9704dfb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/House 2.png using Guid(de52a4d740c4e4ee5a6bff9704dfb790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c8e3e94720c0ccea1b865baf109ec01') in 0.047774 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.033723 seconds.
-  path: Assets/DeliveryDriverWorld/House 1.png
-  artifactKey: Guid(7ce20b77067864639813fdf0821510f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DeliveryDriverWorld/House 1.png using Guid(7ce20b77067864639813fdf0821510f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8dd6a7ab13112fd817f522bdce96ab') in 0.046193 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017091 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.12 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.310 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3311ms)
-		BeginReloadAssembly (997ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (65ms)
-		EndReloadAssembly (1947ms)
-			LoadAssemblies (939ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1091ms)
-				TypeCache.Initialize (1083ms)
-					TypeCache.ScanAssembly (1075ms)
-				ResolveRequiredComponents (8ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (545ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (6ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (335ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.85 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4061 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (25.4 KB). Loaded Objects now: 4562.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 5.881900 ms (FindLiveObjects: 0.487100 ms CreateObjectMapping: 0.510700 ms MarkObjects: 4.828300 ms  DeleteObjects: 0.053700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011333 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Git_Dayhim58\Game-Development_RaceProject\RacingCar\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.20 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.782 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2783ms)
-		BeginReloadAssembly (410ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (76ms)
-		EndReloadAssembly (2134ms)
-			LoadAssemblies (375ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (665ms)
-				TypeCache.Initialize (652ms)
-					TypeCache.ScanAssembly (640ms)
-				ResolveRequiredComponents (13ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (127ms)
-			SetupLoadedEditorAssemblies (886ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
-				SetLoadedEditorAssemblies (10ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (190ms)
-				ProcessInitializeOnLoadAttributes (550ms)
-				ProcessInitializeOnLoadMethodAttributes (86ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (30ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 7.97 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4062 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (32.5 KB). Loaded Objects now: 4565.
-Memory consumption went from 0.62 GB to 0.62 GB.
-Total: 8.394400 ms (FindLiveObjects: 0.407300 ms CreateObjectMapping: 0.252700 ms MarkObjects: 7.675600 ms  DeleteObjects: 0.056900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

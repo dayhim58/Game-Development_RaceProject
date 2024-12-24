@@ -10,6 +10,13 @@ public class Collision : MonoBehaviour
     } 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Trigger toched");
+        if (collision.tag == "Package")
+        {
+            Debug.Log("The package is taken");
+        }
+        if (collision.tag == "Customer")
+        {
+            Debug.Log("The package is delivered");
+        }
     }
 }
